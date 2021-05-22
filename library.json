@@ -1,0 +1,26 @@
+{
+  "name": "Time Acquiring",
+  "version": "0.0.1",
+  "description": "A library to set the time on the board through GPS or WiFi",
+  "keywords": "time, gps, WiFi, NTP",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/sergimn/time-acquiring-ttgo.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Sergi Miralles",
+      "email": "uxx4pv85@mailer.me"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "mikalhart/TinyGPSPlus": "~1.0.2",
+    "lewisxhe/AXP202X_Library": "~1.1.3",
+    "sparkfun/SparkFun u-blox Arduino Library": "~1.8.10"
+  },
+  "frameworks": "*",
+  "platforms": "*"
+}
